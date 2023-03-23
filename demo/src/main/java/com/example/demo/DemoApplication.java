@@ -28,6 +28,7 @@ public class DemoApplication {
 			employeeService.addEmployee(new Employee("Homer", "Simpson", "Plant Operator", 163000.00));
 			employeeService.addEmployee(new Employee("Rick", "Sanchez", "Scientis", 633000.00));
 			employeeService.addEmployee(new Employee("Bob", "Belcher", "Fry Cook", 10.00));
+			employeeService.addEmployee(new Employee("Bob", "Bely", "mesero", 5.00));
 			
 			System.out.println("\nGetting all employees....");
 			employeeService.getAllEmployees().forEach(employee -> System.out.println(employee));
